@@ -1,0 +1,18 @@
+[package]
+name = "netlink-packet-macsec"
+version = "0.1.0"
+authors = ["Gris Ge <cnfourt@gmail.com>"]
+edition = "2024"
+rust-version = "1.89"
+repository = "https://github.com/rust-netlink/netlink-packet-macsec"
+keywords = ["netlink", "linux", "macsec"]
+license = "MIT"
+readme = "README.md"
+description = "MACsec generic netlink packet definitions"
+
+[dependencies]
+netlink-packet-core = { version = "0.9" }
+netlink-packet-generic = { version = "0.5" }
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
